@@ -31,12 +31,12 @@ def run_rectangle():
         delay(0.01)
 
     for x in range(750,50-1,-10):
-        render_frame(x,90)
+        render_frame(x,550)
         delay(0.01)
 
 
 while True:
-    run_circle()
+    #run_circle()
     run_rectangle()
 
     break
